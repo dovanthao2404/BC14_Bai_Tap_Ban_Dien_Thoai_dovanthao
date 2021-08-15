@@ -1,0 +1,56 @@
+.phone-product {
+  margin-top: 80px;
+}
+
+.phone-select {
+  padding: 8px 20px 8px 4px;
+  border-color: #007bff;
+  color: #007bff;
+  border-radius: 4px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.phone-select:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.phone-select option {
+  display: block;
+  background-color: white;
+  color: #000;
+}
+
+.notifiSuccess {
+  position: absolute;
+  top: 48px;
+  right: 390px;
+  -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: none;
+}
+
+.notifiSuccess:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: -8px;
+  right: 20px;
+}
+
+.notifiSuccess .add-success {
+  cursor: -webkit-grab !important;
+  cursor: grab !important;
+}
+/*# sourceMappingURL=main.css.map */

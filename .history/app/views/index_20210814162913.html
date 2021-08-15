@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dien Thoai Xin</title>
+
+
+
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- GOOGLE FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- B4 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="../../assets/css/main.css">
+</head>
+
+<body>
+  <header class="fixed-top">
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container">
+
+        <a href="#" class="navbar-brand">
+          DienThoai
+        </a>
+        <form class="form-inline my-2 my-lg-0">
+          <input id="valueSearch" class="form-control mr-sm-2" type="search" placeholder="Tên điện thoại"
+            aria-label="Search">
+          <button id="btnSearch" class="btn btn-outline-light my-2 my-sm-0" type="button">Search</button>
+        </form>
+        <div class="phone-cart position-absolute">
+          <a href="cart.html" class="text-light">
+            <i class="fa fa-cart-plus"></i> Giỏ hàng
+          </a>
+
+          <div class="notifiSuccess pb-2 pt-3 pl-2 pr-4 bg-white rounded">
+            <i class="fa fa-times icon-close"></i>
+            <div class="d-flex align-items-center">
+              <i class="fa fa-check-circle text-success"></i>
+              <p class="m-0">Thêm vào giỏ hàng thành công</p>
+            </div>
+            <a href="cart.html" class="btn btn-danger w-100 d-block">Xem giỏ hàng và thanh toán</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <section class="phone-product">
+    <div class="container">
+      <div id="listAll-type">
+        <div class="phone-title">
+          <div class="d-flex justify-content-between align-items-center my-3">
+            <div class="d-flex align-items-center">
+              <h3 class="mr-3">
+                Danh sản phẩm
+              </h3>
+              <div>
+                <select class="phone-select" name="" id="phoneType">
+                  <option value="">Lọc</option>
+                  <option value="Samsung">Samsung</option>
+                  <option value="Iphone">Iphone</option>
+                </select>
+
+              </div>
+            </div>
+            <div class="sort-name">
+              <select class="phone-select" name="" id="sortPhone">
+                <option value="">Sắp xếp</option>
+                <option value="a">A - Z</option>
+                <option value="z">Z - A</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="phone-list">
+          <div class="row" id="listPhoneView">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- B4 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+
+  <!-- AXIOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="module" src="./../controllers/main.js"></script>
+</body>
+
+</html>

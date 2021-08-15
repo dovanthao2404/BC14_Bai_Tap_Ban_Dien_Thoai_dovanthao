@@ -1,0 +1,112 @@
+[
+  {
+  "name": "Samsung Galaxy Z Fold3 5G 256GB",
+  "price": "2000",
+  "screen": "Dynamic AMOLED 2X, Chính 6.7\" & Phụ 1.9\", Full HD+",
+  "backCamera": "2 camera 12 MP",
+  "frontCamera": "10 MP",
+  "img": "https://cdn.tgdd.vn/Products/Images/42/226935/samsung-galaxy-z-fold-3-silver-600x600.jpg",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "Samsung",
+  "id": "1"
+  },
+  {
+    "name": "Samsung Galaxy M51 ",
+    "price": "400",
+    "screen": "Super AMOLED PlusFull HD+",
+    "backCamera": " Chính 64 MP & Phụ 12 MP, 5 MP, 5 MP",
+    "frontCamera": " 32 MP",
+    "img": "https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg",
+    "desc": "Thiết kế đột phá, màn hình tuyệt đỉnh",
+    "type": "Samsung",
+    "id": "2"
+  },
+  {
+  "name": "Điện thoại Samsung Galaxy A72",
+  "price": "800",
+  "screen": "Super AMOLED6.7\"Full HD+",
+  "backCamera": "backCamera 3",
+  "frontCamera": "frontCamera 3",
+  "img": "https://cdn.tgdd.vn/Products/Images/42/226101/samsung-galaxy-a72-thumb-balck-600x600-600x600.jpg",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "type 3",
+  "id": "3"
+  },
+  {
+  "name": "name 4",
+  "price": "price 4",
+  "screen": "screen 4",
+  "backCamera": "backCamera 4",
+  "frontCamera": "frontCamera 4",
+  "img": "img 4",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "type 4",
+  "id": "4"
+  },
+  {
+  "name": "name 5",
+  "price": "price 5",
+  "screen": "screen 5",
+  "backCamera": "backCamera 5",
+  "frontCamera": "frontCamera 5",
+  "img": "img 5",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "type 5",
+  "id": "5"
+  },
+  {
+  "name": "name 6",
+  "price": "price 6",
+  "screen": "screen 6",
+  "backCamera": "backCamera 6",
+  "frontCamera": "frontCamera 6",
+  "img": "img 6",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "type 6",
+  "id": "6"
+  },
+  {
+  "name": "name 7",
+  "price": "price 7",
+  "screen": "screen 7",
+  "backCamera": "backCamera 7",
+  "frontCamera": "frontCamera 7",
+  "img": "img 7",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "type 7",
+  "id": "7"
+  },
+  {
+  "name": "name 8",
+  "price": "price 8",
+  "screen": "screen 8",
+  "backCamera": "backCamera 8",
+  "frontCamera": "frontCamera 8",
+  "img": "img 8",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "type 8",
+  "id": "8"
+  },
+  {
+  "name": "name 9",
+  "price": "price 9",
+  "screen": "screen 9",
+  "backCamera": "backCamera 9",
+  "frontCamera": "frontCamera 9",
+  "img": "img 9",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "type 9",
+  "id": "9"
+  },
+  {
+  "name": "name 10",
+  "price": "price 10",
+  "screen": "screen 10",
+  "backCamera": "backCamera 10",
+  "frontCamera": "frontCamera 10",
+  "img": "img 10",
+  "desc": "Thiết kế mang tính đột phá",
+  "type": "type 10",
+  "id": "10"
+  }
+  ]

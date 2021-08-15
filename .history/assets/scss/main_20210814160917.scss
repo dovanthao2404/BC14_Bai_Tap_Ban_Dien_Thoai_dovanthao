@@ -1,0 +1,39 @@
+.phone-product {
+  margin-top: 80px;
+}
+.phone-select {
+  padding: 8px 20px 8px 4px;
+  border-color: #007bff;
+  color: #007bff;
+  border-radius: 4px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  option {
+    display: block;
+    background-color: white;
+    color: #000;
+  }
+}
+.notifiSuccess {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+  }
+
+  .icon-close {
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    cursor: pointer;
+  }
+}
