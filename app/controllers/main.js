@@ -23,10 +23,11 @@ let renderView = (arr) => {
         src="${phone.img}"
         alt="" class="card-img-top">
       <div class="card-body">
-        <h4 class=card-title>
+        <h5 class=card-title>
         ${phone.name}
-        </h4>
+        </h5>
         <p class="card-text">${phone.desc}</p>
+        <h4 >Giá: ${phone.price}$</h4>
         </div>
         <div class="card-footer">
         <a data-action="add"  data-phone=${phone.id} class="btn btn-primary w-100">Cart</a>
